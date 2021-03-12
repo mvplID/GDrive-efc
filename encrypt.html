@@ -121,7 +121,7 @@ document.querySelector("#encrypt").addEventListener("click", async function(even
   document.querySelector("#folder_link").setAttribute("disabled", "");
   document.querySelector("#encrypt").setAttribute("disabled", "");
   try {
-    document.querySelector("#encrypted_link").value = "bXZwbC5ncQ==." + (await encryptFolder());
+    document.querySelector("#encrypted_link").value = "https://mvpl.gq/#bXZwbC5ncQ==." + (await encryptFolder());
   }
   catch(e) {
     alert(e.message);
